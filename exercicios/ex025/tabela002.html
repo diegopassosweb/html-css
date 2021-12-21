@@ -15,6 +15,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /*para fixar o cabeçalho */
         }
 
         td,
@@ -34,6 +35,12 @@
         tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky; /*para fixar o cabeçalho */
+            top: -1px;
+            background-color: #383838;
         }
         tbody > tr:nth-child(odd) { /*Efeito zebrado  odd ou even */
             background-color: lightgray;
