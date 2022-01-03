@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/coffe.jpg");
+    text-align: center; /*titulo no centro */
+}
+nav {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: .5s;
+    
+}
+table {
+    border-collapse: collapse;
+    margin: 5% auto; /*centralizando tabela */
+    
+}
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px;  
+}
+
+
+th, td {
+    border: 5px solid gray;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
