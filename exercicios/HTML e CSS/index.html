@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body{
+         margin: 0; /* o menu fica colado no topo */
+        }
+        .bg-gray-900{
+            background-color: black;
+        }
+        .text-white{
+            color: white;
+        }
+        .block{
+             display: block; /* A declaração faz com que o elemento HTML seja renderizado como bloco */
+        }
+        .inline-block{
+            display: inline-block; /* Um bloco inline é colocado inline (ou seja, na mesma linha do conteúdo adjacente), mas comporta-se como se fosse um bloco */
+        }
+        .inline{
+            display: inline; /* exibe um elemento HTML como um contêiner de bloco de nível inline */
+        }
+        .hidden{
+            display: none; /* retira o elemento do layout da página. Mas você ainda pode continuar manipulando ele no DOM*/
+        }
+        .flex{
+            display: flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+        }
+        .justify-between{
+            justify-content: space-between; /* space-between: O primeiro item é deslocado para o início do eixo principal, o último é deslocado para o final do eixo principal e os demais são distribuídos uniformemente entre eles*/
+        }
+        .justify-center{
+            justify-content: center;
+        }
+        .items-center{
+            align-items: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <header class="bg-gray-900">
+        <div class="flex justify-center items-center">
+        
+            <a href="" class="text-white ">Pricing</a>
+            <a href="" class="text-white ">Courses</a>
+            <a href="" class="text-white ">Blog</a>
+            <a href="" class="text-white ">Forum</a>
+        </div>
+        <div class="flex"items-center>
+            <a href="" class="text-white block">Login</a>
+            <button>Sign Up</button>
+        </div>
+    </header>
+</body>
+</html>
