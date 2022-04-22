@@ -35,6 +35,15 @@ img{
     display: flex;
     margin: 1em 0;
 }
+.col-1{
+    width: 25%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 75%;
+}
 .col-bg{
     background: #212614;
     padding: 1em;
